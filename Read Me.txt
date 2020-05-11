@@ -1,5 +1,0 @@
-##Evaluate-News-Article
-This project is for udacity frontend nanodegree
-
-##install Dependencies:
-npm install
