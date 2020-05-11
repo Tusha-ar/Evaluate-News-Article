@@ -1,0 +1,29 @@
+.eval{
+    margin-top: 1.5em;
+    padding: 30px;
+    background-color: #698474;
+    display: flex;
+    flex-direction: column;
+    & strong{
+        text-transform: uppercase;
+        font-family: 'Raleway', sans-serif;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+        margin-bottom: 1em;
+    }
+    & .res{
+
+        padding: 10px 30px;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Raleway', sans-serif;
+        & span{
+            margin-top: 0.5em;
+        }
+    }
+}
+
+#polarity, #subjectivity, #polarity_con, #subjectivity_con{
+    color: wheat;
+    margin-left: 10px;
+}

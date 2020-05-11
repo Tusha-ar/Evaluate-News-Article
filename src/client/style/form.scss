@@ -1,0 +1,41 @@
+.input{
+    border: 2px solid black;
+    padding: 30px;
+    background-color: #222222;
+    margin-top: 1em;
+
+    & form{
+        padding: 20px;
+        display: grid;
+        grid-gap: 0.8em;
+        grid-template-rows: 1fr 1fr;
+        justify-content: stretch;
+
+        & .url{
+            font-family: 'Josefin Sans', sans-serif;
+            width: 100%;
+            border: 0;
+            border-bottom: 2px solid gray;
+            outline: 0;
+            font-size: 1.3rem;
+            color: white;
+            padding: 7px 0;
+            background: transparent;
+        }
+        & .button{
+            display:inline-block;
+            padding:0.5em 3em;
+            border:0.16em solid #FFFFFF;
+            box-sizing: border-box;
+            width: 150px;
+            background: transparent;
+            text-align: center;
+            color: white;
+            transition: all 0.15s;
+            &:hover{
+            color:#DDDDDD;
+            border-color: #DDDDDD;
+            }
+        }
+    }
+}
